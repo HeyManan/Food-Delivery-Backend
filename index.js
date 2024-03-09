@@ -12,7 +12,7 @@ const app = express();
 dotenv.config();
 
 let corOptions = {
-  origin: "https://localhost:8081",
+  // origin: "https://localhost:8800",
 };
 
 const connect = async () => {
